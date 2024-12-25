@@ -23,28 +23,28 @@ async function fetchWeatherData(latitude, longitude) {
   
     switch (description) {
       case 'Partly Cloudy':
-        imageUrl = './public/images/partly_cloudy.png';
+        imageUrl = '../public/images/partly_cloudy.png';
         break;
       case 'Misty':
-        imageUrl = './public/images/misty.png';
+        imageUrl = '../public/images/misty.png';
         break;
       case 'Clear':
-        imageUrl = './public/images/clear.png';
+        imageUrl = '../public/images/clear.png';
         break;
       case 'Sunny':
-        imageUrl = './public/images/sunny.png';
+        imageUrl = '../public/images/sunny.png';
         break;
       case 'Overcast':
-        imageUrl = './public/images/clouds.png';
+        imageUrl = '../public/images/clouds.png';
         break;
       case 'Rain':
-        imageUrl = './public/images/rain.png';
+        imageUrl = '../public/images/rain.png';
         break;
       case 'Snow':
-        imageUrl = './public/images/snow.png';
+        imageUrl = '../public/images/snow.png';
         break;
       default:
-        imageUrl = './public/images/weather.png';
+        imageUrl = '../public/images/weather.png';
         break;
     }
   
